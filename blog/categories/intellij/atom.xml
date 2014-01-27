@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[A Developers Blog]]></title>
-  <link href="http://mofus.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: IntelliJ | A Developers Blog]]></title>
+  <link href="http://mofus.github.io/blog/categories/intellij/atom.xml" rel="self"/>
   <link href="http://mofus.github.io/"/>
   <updated>2014-01-27T20:06:29+01:00</updated>
   <id>http://mofus.github.io/</id>

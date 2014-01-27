@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - A Developers Blog</title>
+  <title>A Faster Android Emulator - A Developers Blog</title>
   <meta name="author" content="Anders Bech Mellson">
 
    
@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://mofus.github.io/blog/archives">
+  <link rel="canonical" href="http://mofus.github.io/blog/2014/01/27/a-faster-android-emulator">
   <link href="/favicon.png" rel="icon">
   <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
@@ -85,62 +85,119 @@
   <div class="container" id="main">
       <div class="row-fluid">
         <div id="content">
-          <article role="article">
+          <div>
+<article class="hentry" role="article">
   
+
   <header>
-    <div class="jumbotron">
-      Blog Archive
-    </div>
-    
-  </header>
-  
-  <div clas id="blog-archives">
+  <div class="jumbotron">
+    A Faster Android Emulator
+	<h5>
+
+
+
+
+
+
+
 
   
+
+
+<i class="icon-calendar-empty"></i> <time datetime="2014-01-27T19:30:46+01:00" pubdate data-updated="true">27.01.2014</time></h5>
+  </div>
+</header>
   <div class="row-fluid">
-	<div class="span1">
-	
-	  
-	    <h1>2014</h1>
-	
-	</div>
-	
-	<div class="span11">
-	
+    <div class="span12">
+      <p>Anyone who has done Android development will know that the standard emulator is very slow to startup.
+I have recently discovered a much speedier alternative!</p>
 
-	  <article>
-	  
-<div class="row-fluid">
-	<div class="span1">
-		<h1 class="date-time"><time datetime="2014-01-27T19:30:46+01:00" pubdate><span class='month'>Jan</span> <span class='day'>27</span><span class='year'><!--2014--></span></time></h1>
-	</div>
-	<div class="span10">
-		<h1><a href="/blog/2014/01/27/a-faster-android-emulator/">A Faster Android Emulator</a></h1>
-	</div>
-</div>
+<h2>Speeding Things Up</h2>
 
-<div class="row-fluid">
-	<div class="span1">
-	</div>
-	<div class="span10">
-		
+<p><a href="http://www.genymotion.com/">Geny Motion</a> is an alternative emulator which is much faster.
+However it is a paid product.
+They offer a free personal version which I am using.</p>
 
-		<footer class="archive">
-		  <span class="categories">posted in <a class='category' href='/blog/categories/android/'>Android</a>, <a class='category' href='/blog/categories/geny-motion/'>Geny Motion</a>, <a class='category' href='/blog/categories/intellij/'>IntelliJ</a>, <a class='category' href='/blog/categories/mac/'>Mac</a></span>
-		</footer>
-		
-	</div>
-</div>
+<h2>Mac Setup</h2>
+
+<ol>
+<li><a href="https://cloud.genymotion.com/page/customer/login/">Create an account at Geny Motion</a></li>
+<li><a href="https://www.virtualbox.org/wiki/Downloads">Install Virtual Box</a></li>
+<li><a href="https://cloud.genymotion.com/page/launchpad/download/">Install Geny Motion</a></li>
+<li>Optional <a href="https://cloud.genymotion.com/page/launchpad/download/">Install an IDE Plugin</a> (I use the IntelliJ plugin)</li>
+<li>Startup Geny Motion and add the device you want</li>
+<li>Press play on that device</li>
+<li>Run your Android code (In my IntelliJ run configuration I have set the target device to <code>Show chooser dialog</code>)</li>
+</ol>
 
 
-	  </article>
-	</div>
+<p>If you want to use Geny Motion on Windows you can skip step 2 as that is included in the installer.</p>
+
+    </div>
   </div>
 
+
+
+  <footer>
+    <hr>
+    
+    <div class="row-fluid">
+      
+      <div class="span6">
+        <p class="meta">
+        
+        
+
+
+
+  <a href="/blog/categories/android/"><span class="badge">Android</span></a>
+
+  <a href="/blog/categories/geny-motion/"><span class="badge">Geny Motion</span></a>
+
+  <a href="/blog/categories/intellij/"><span class="badge">IntelliJ</span></a>
+
+  <a href="/blog/categories/mac/"><span class="badge">Mac</span></a>
+
+
+
+
+        </p>
+      </div>
+      
+      <div class="span6 social-sharing">
+        <div class="sharing">
+  <div class="addthis_toolbox addthis_default_style ">
+  
+  
+  
+  <a class="addthis_counter addthis_pill_style"></a>
+  </div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
 </div>
 
+      </div>
+      
+      
+    </div>
+    
+    <div class="row-fluid">
+      <div class="span12">
+        <p class="meta">
+          
+          
+        </p>
+      </div>
+    </div>
+  </footer>
 </article>
 
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
 
 
 
@@ -163,7 +220,10 @@
       var disqus_shortname = 'mellson';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://mofus.github.io/blog/2014/01/27/a-faster-android-emulator/';
+        var disqus_url = 'http://mofus.github.io/blog/2014/01/27/a-faster-android-emulator/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

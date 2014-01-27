@@ -1,15 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://yoursite.com/blog/archives/</loc>
-        <lastmod>2014-01-27T19:09:19+01:00</lastmod>
+        <loc>http://mofus.github.io/blog/2014/01/27/a-faster-android-emulator/</loc>
+        <lastmod>2014-01-27T19:58:07+01:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/</loc>
-        <lastmod>2014-01-27T19:09:19+01:00</lastmod>
+        <loc>http://mofus.github.io/blog/archives/</loc>
+        <lastmod>2014-01-27T19:58:07+01:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/robots.txt</loc>
+        <loc>http://mofus.github.io/</loc>
+        <lastmod>2014-01-27T19:58:07+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mofus.github.io/robots.txt</loc>
         <lastmod>2014-01-27T19:09:19+01:00</lastmod>
     </url>
 </urlset>
