@@ -13,7 +13,7 @@ Luckily there is a much speedier alternative!
 However it is a paid product.
 They offer a free personal version which I am using.
 
-###Initial Setup
+###Initial Setup (Mac)
 1. [Create an account at Genymotion](https://cloud.genymotion.com/page/customer/login/)
 2. [Install Virtual Box](https://www.virtualbox.org/wiki/Downloads)
 3. [Install Genymotion](https://cloud.genymotion.com/page/launchpad/download/)
