@@ -26,4 +26,5 @@ I am a big fan of
 I have put together this blog with the purpose of remembering.
 All too often, as a developer, you have to go through a long and tedious setup before you can get crunching.
 Whenever I run into one of these situations I will blog about them.
-Helping you and myself when I later have to Google my own brain.
+Helping myself when I later have to Google my own brain.
+Hopefully you can use some of this information as well.

@@ -14,15 +14,15 @@ However it is a paid product.
 They offer a free personal version which I am using.
 
 ###Initial Setup (Mac)
-1. [Create an account at Genymotion](https://cloud.genymotion.com/page/customer/login/)
-2. [Install Virtual Box](https://www.virtualbox.org/wiki/Downloads)
+1. [Install Virtual Box](https://www.virtualbox.org/wiki/Downloads)
+2. [Create an account at Genymotion](https://cloud.genymotion.com/page/customer/login/)
 3. [Install Genymotion](https://cloud.genymotion.com/page/launchpad/download/)
 4. Optional [Install an IDE Plugin](https://cloud.genymotion.com/page/launchpad/download/) (I use the IntelliJ plugin)
 5. Startup Genymotion and add the device you want
 6. Press play on that device
 7. Run your Android code (In my IntelliJ run configuration I have set the target device to `Show chooser dialog`)
 
-If you want to use Genymotion on Windows you can skip step 2 as that is included in the installer.
+If you want to use Genymotion on Windows you can skip step 1 as that is included in the installer.
 
 ###Everyday usage
 The above is for the initial setup of Genymotion.
