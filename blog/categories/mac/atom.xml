@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Mac | A Developers Blog]]></title>
   <link href="http://mofus.github.io/blog/categories/mac/atom.xml" rel="self"/>
   <link href="http://mofus.github.io/"/>
-  <updated>2014-01-28T11:15:13+01:00</updated>
+  <updated>2014-01-28T11:16:40+01:00</updated>
   <id>http://mofus.github.io/</id>
   <author>
     <name><![CDATA[Anders Bech Mellson]]></name>
@@ -30,8 +30,8 @@ They offer a free personal version which I am using.</p>
 <h3>Initial Setup (Mac)</h3>
 
 <ol>
-<li><a href="https://cloud.genymotion.com/page/customer/login/">Create an account at Genymotion</a></li>
 <li><a href="https://www.virtualbox.org/wiki/Downloads">Install Virtual Box</a></li>
+<li><a href="https://cloud.genymotion.com/page/customer/login/">Create an account at Genymotion</a></li>
 <li><a href="https://cloud.genymotion.com/page/launchpad/download/">Install Genymotion</a></li>
 <li>Optional <a href="https://cloud.genymotion.com/page/launchpad/download/">Install an IDE Plugin</a> (I use the IntelliJ plugin)</li>
 <li>Startup Genymotion and add the device you want</li>
@@ -40,7 +40,7 @@ They offer a free personal version which I am using.</p>
 </ol>
 
 
-<p>If you want to use Genymotion on Windows you can skip step 2 as that is included in the installer.</p>
+<p>If you want to use Genymotion on Windows you can skip step 1 as that is included in the installer.</p>
 
 <h3>Everyday usage</h3>
 
