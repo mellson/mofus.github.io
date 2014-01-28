@@ -4,7 +4,7 @@
   <title><![CDATA[A Developers Blog]]></title>
   <link href="http://mofus.github.io/atom.xml" rel="self"/>
   <link href="http://mofus.github.io/"/>
-  <updated>2014-01-27T20:31:53+01:00</updated>
+  <updated>2014-01-28T08:51:22+01:00</updated>
   <id>http://mofus.github.io/</id>
   <author>
     <name><![CDATA[Anders Bech Mellson]]></name>
@@ -18,29 +18,78 @@
     <link href="http://mofus.github.io/blog/2014/01/27/a-faster-android-emulator/"/>
     <updated>2014-01-27T19:30:46+01:00</updated>
     <id>http://mofus.github.io/blog/2014/01/27/a-faster-android-emulator</id>
-    <content type="html"><![CDATA[<p>Anyone who has done Android development will know that the standard emulator is very slow to startup.
-I have recently discovered a much speedier alternative!</p>
+    <content type="html"><![CDATA[<p>Anyone who has done Android development will know that the standard emulator (Android Virtual Device Manager) is very slow to startup.
+Luckily there is a much speedier alternative!</p>
 
 <h2>Speeding Things Up</h2>
 
-<p><a href="http://www.genymotion.com/">Geny Motion</a> is an alternative emulator which is much faster.
+<p><a href="http://www.genymotion.com/">Genymotion</a> is an alternative emulator which is much faster.
 However it is a paid product.
 They offer a free personal version which I am using.</p>
 
-<h2>Mac Setup</h2>
+<h3>Initial Setup</h3>
 
 <ol>
-<li><a href="https://cloud.genymotion.com/page/customer/login/">Create an account at Geny Motion</a></li>
+<li><a href="https://cloud.genymotion.com/page/customer/login/">Create an account at Genymotion</a></li>
 <li><a href="https://www.virtualbox.org/wiki/Downloads">Install Virtual Box</a></li>
-<li><a href="https://cloud.genymotion.com/page/launchpad/download/">Install Geny Motion</a></li>
+<li><a href="https://cloud.genymotion.com/page/launchpad/download/">Install Genymotion</a></li>
 <li>Optional <a href="https://cloud.genymotion.com/page/launchpad/download/">Install an IDE Plugin</a> (I use the IntelliJ plugin)</li>
-<li>Startup Geny Motion and add the device you want</li>
+<li>Startup Genymotion and add the device you want</li>
 <li>Press play on that device</li>
 <li>Run your Android code (In my IntelliJ run configuration I have set the target device to <code>Show chooser dialog</code>)</li>
 </ol>
 
 
-<p>If you want to use Geny Motion on Windows you can skip step 2 as that is included in the installer.</p>
+<p>If you want to use Genymotion on Windows you can skip step 2 as that is included in the installer.</p>
+
+<h3>Everyday usage</h3>
+
+<p>The above is for the initial setup of Genymotion.
+After the first setup it gets much easier to use the emulator.
+Just follow these three steps.</p>
+
+<ol>
+<li>Startup Genymotion</li>
+<li>Press play on your virtual device</li>
+<li>Run your Android code</li>
+</ol>
+
+
+<h2>Benchmark</h2>
+
+<p>Let us see how much faster Genymotion is compared to the standard emulator.
+We will approach this in a very, <em>ahem</em>, scientific benchmark of the two emulators using a timer on my smartphone.
+Before you can run your Android emulator you need to prepare it.
+Let us test how long it takes to do just that.</p>
+
+<h3>Installing the virtual devices</h3>
+
+<p>Both emulators is installing a virtual Nexus 4 device from scratch.
+I open the emulator press start on my timer and ask them to startup the device.
+When the virtual device hits the desktop I stop the clock.</p>
+
+<ul>
+<li>Cold boot of the normal emulator with a Nexus 4 virtual device &ndash; <strong>211 seconds</strong></li>
+<li>Cold boot of Genymotion with a Nexus 4 virtual device &ndash; <strong>14 seconds</strong></li>
+</ul>
+
+
+<p>Over 3 minutes saved here alone.</p>
+
+<h3>Running the virtual devices</h3>
+
+<p>After the initial setup you still need to boot up your virtual device every time you need it.
+So lets us test how a normal start of the emulators fare against each other.</p>
+
+<ul>
+<li>Boot of the normal emulator with a Nexus 4 virtual device &ndash; <strong>62 seconds</strong></li>
+<li>Boot of Genymotion with a Nexus 4 virtual device &ndash; <strong>9 seconds</strong></li>
+</ul>
+
+
+<p>Keep in mind that when you are developing you don&rsquo;t need to shutdown the emulator between runs.</p>
+
+<p><em>The test computer is a MacBook Pro, 2,6 GHz i7, 16GB RAM and SSD running os 10.9.1.</em></p>
 ]]></content>
   </entry>
   
