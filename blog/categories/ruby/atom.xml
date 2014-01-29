@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Ruby | A Developers Blog]]></title>
+  <link href="http://mofus.github.io/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://mofus.github.io/"/>
+  <updated>2014-01-29T22:39:42+01:00</updated>
+  <id>http://mofus.github.io/</id>
+  <author>
+    <name><![CDATA[Anders Bech Mellson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Fish and Ruby]]></title>
+    <link href="http://mofus.github.io/blog/2014/01/29/fish-and-ruby/"/>
+    <updated>2014-01-29T22:32:18+01:00</updated>
+    <id>http://mofus.github.io/blog/2014/01/29/fish-and-ruby</id>
+    <content type="html"><![CDATA[<p>When I starting looking for a blogging platform I tried a few.
+<a href="https://ghost.org/">Ghost</a> seems really nice, I could revisit it in the future.</p>
+
+<p>However for this blog I chose <a href="http://octopress.org/">Octopress</a>.
+Github even allows you to host your own blog for free when you run Octopress which is based on <a href="http://jekyllrb.com/">Jekyll</a>.</p>
+
+<h2>Fish Trouble</h2>
+
+<p>I have fallen in love with the <a href="http://fishshell.com/">Fish Shell</a>, I encourage you to try it.
+However I was not aware of the problems with bash scripts in Fish before trying to setup Octopress.</p>
+
+<p>So I struggled when I had to use <a href="http://rvm.io/">RVM</a>, which is a collection of bash scripts.
+After wasting a few hours I found this <a href="http://rvm.io/integration/fish">solution</a> on the RVM page.</p>
+
+<p>This will let you keep using Fish even when you need RVM.</p>
+]]></content>
+  </entry>
+  
+</feed>
